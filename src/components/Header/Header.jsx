@@ -3,7 +3,6 @@ import React, {useState} from "react";
 import { CiMenuFries } from "react-icons/ci";
 import { IoMdClose } from "react-icons/io";
 
-
 export default function Header() {
  const [toggle,setToggle] = useState(false);
   return (

@@ -14,7 +14,7 @@ export default function Work() {
             <p>. WORK WITH OUR TEAM</p>
           </div>
           <div>
-            <p className="md:text-[100px] text-[50px]  text-[#c3c8ce] font-bold  ">
+            <p className="md:text-[6em] text-[50px]  text-[#c3c8ce] font-bold" style={{lineHeight: '1.1', letterSpacing: '-.05em'}}>
               <span
                 style={{
                   backgroundImage:
@@ -27,7 +27,7 @@ export default function Work() {
               </span>
               , meet
             </p>
-            <p className="md:text-[100px] text-[50px] text-[#c3c8ce] font-bold  ">
+            <p className="md:text-[100px] text-[50px] text-[#c3c8ce] font-bold"  style={{lineHeight: '1.1', letterSpacing: '-.05em'}}>
               your{" "}
               <span
                 style={{
@@ -42,7 +42,7 @@ export default function Work() {
             </p>
           </div>
           <br />
-          <p className="text-[#c3c8ce] text-2xl " >With 50 successful launches and 5,000+ templates <br /> sold, our team has a track record you can count on.</p>
+          <p className="text-[#a7b5c4] text-[1.5em]" style={{letterSpacing: '-.01em', lineHeight: '1.33'}}>With 50 successful launches and 5,000+ templates <br /> sold, our team has a track record you can count on.</p>
       <button className="bg-[#0052cc] mt-6 h-14  px-10 text-[20px] font-bold text-white rounded-[40px] shadow-2xl hover:bg-[#5b46a8] hover:text-white transition-all duration-300 ">
           Work With Us
         </button>

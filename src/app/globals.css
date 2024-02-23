@@ -32,3 +32,21 @@ body {
     text-wrap: balance;
   }
 }
+
+.gradient-text {
+  position: relative;
+  /* font-size: 24px; Adjust the font size as needed */
+  background: linear-gradient(351deg, #31b3ec 23%, #524add 87%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.gradient-text::after {
+  content: attr(data-text);
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  color: #000; /* Fallback color in case background-clip is not supported */
+}

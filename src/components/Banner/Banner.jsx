@@ -7,12 +7,12 @@ export default function Banner() {
   return (
     <div className="bg-[#0d1117] h-auto mb-10 w-full py-[1px]">
       <div className="max-w-[1240px] my-[50px] mx-auto text-center ">
-        <div className="text-[2rem]  md:text-[6rem] text-[#ccdae7] font-bold ">
+        <div className="text-[2rem]  md:text-[6rem] text-[#ccdae7]" style={{letterSpacing: '-.3rem', fontWeight: '600'}}>
           Design + Webflow
         </div>
-        <h2 className="text-[#ccdae7] mt-4 md:text-[80px] text-4xl font-bold">
+        <h2 className="text-[#ccdae7] mt-4 md:text-[80px] text-4xl font-bold" style={{fontWeight: '600'}}>
           for{" "}
-          <span class="bg-gradient-to-br from-red-500 to-purple-500 text-transparent bg-clip-text">
+          <span class="bg-gradient-to-br from-red-500 to-purple-500 text-transparent bg-clip-text" style={{fontWeight: '600'}}>
             Tech Startups
           </span>{" "}
         </h2>
