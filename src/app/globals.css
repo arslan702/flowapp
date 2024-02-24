@@ -50,3 +50,33 @@ body {
   z-index: -1;
   color: #000; /* Fallback color in case background-clip is not supported */
 }
+
+.answer-container {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+}
+
+.answer-container.visible {
+  max-height: 1000px; /* Adjust as needed */
+  opacity: 1;
+}
+
+.tabbg1 {
+  background-image: url('../image/tab1.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabbg2 {
+  background-image: url('../image/tab2.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tabbg3 {
+  background-image: url('../image/tab3.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

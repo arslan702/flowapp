@@ -4,6 +4,7 @@ import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 import Help from "@/components/Help";
+import HelpTabs from "@/components/HelpTabs";
 import People from "@/components/People";
 import Pricing from "@/components/Pricing";
 import Review from "@/components/Review";
@@ -16,6 +17,7 @@ export default function Home() {
       <Header/>
       <Banner/>
       <Help/>
+      <HelpTabs/>
       <Review/>
       <Work/>
       <Why/>
