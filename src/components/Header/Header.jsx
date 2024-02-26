@@ -9,18 +9,22 @@ export default function Header() {
  const [toggle,setToggle] = useState(false);
 
  const scrollToWhyUs = () => {
+  setToggle(false);
   scroll.scrollTo('whyUsSection', { smooth: 'easeInOutQuart', duration: 500 });
 };
 
  const scrollToPricing = () => {
+  setToggle(false);
   scroll.scrollTo('pricingSection', { smooth: 'easeInOutQuart', duration: 500 });
 };
 
 const scrollToWhyWebflow = () => {
+  setToggle(false);
   scroll.scrollTo('webFlowSection', { smooth: 'easeInOutQuart', duration: 500 });
 };
 
 const scrollToFaqs = () => {
+  setToggle(false);
   scroll.scrollTo('faqsSection', { smooth: 'easeInOutQuart', duration: 500 });
 };
   return (
