@@ -4,10 +4,10 @@ import { IoMdClose } from "react-icons/io";
 
 export default function Pricing() {
   return (
-    <div className=" ">
+    <div className=" " id="pricingSection">
       <div className="text-[#ccdae7] mt-5 text-center pt-5  ">
-        <p className="gap-x-8 text-[#5a5b5c] text-[14px] ">
-          6. <span className="text-[#9dacbb]">OUR PRICING</span>{" "}
+        <p className="gap-x-8 text-[#5a5b5c] text-[13px] ">
+          5. <span className="text-[#9dacbb]">OUR PRICING</span>{" "}
         </p>
         <br />
         <p className="md:text-7xl text-2xl font-bold">
@@ -20,7 +20,7 @@ export default function Pricing() {
       <br />
       <br />
       <div className="w-[80%] m-[auto]  ">
-        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1   ">
+        <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2  ">
           <div className=" md:w-[97%] bg-[#171e25] p-7 rounded-lg mb-2 ">
             <div className="flex gap-x-2 text-[#ccdae7]">
               <p className="text-[#9d9d9e]">01</p>

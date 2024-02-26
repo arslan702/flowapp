@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Faqs() {
   return (
-    <div className="md:h-[70vh] h-[60vh] text-[#ccdae7]">
+    <div className="md:h-[70vh] h-[60vh] text-[#ccdae7] px-2 " id="faqsSection">
       <div
         className="w-full h-full   justify-center"
         style={{
@@ -10,8 +10,8 @@ export default function Faqs() {
         }}
       >
         <div className="flex  justify-center mt-5 pt-10 ">
-          <p>07</p>
-          <p>· OUR FAQS</p>
+          <p className="text-[#707085] text-[12px] " >06</p>
+          <p className="text-[12px]" >· OUR FAQS</p>
         </div>
         <br />
         <p className="text-center md:text-6xl text-3xl font-bold " >Your questions answered</p>

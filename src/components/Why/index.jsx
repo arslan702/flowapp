@@ -3,22 +3,26 @@ import { MdGroups } from "react-icons/md";
 import Image from "next/image";
 import img from "../../image/2.jpg";
 import { IoAppsSharp } from "react-icons/io5";
+import { MdVerticalSplit } from "react-icons/md";
+import { MdInterests } from "react-icons/md";
+
+
 
 export default function Why() {
   return (
-    <div className="text-white mt-10 gap-x-10 px-0 md:px-14 py-5">
+    <div className="text-white mt-10 gap-x-10 px-0 md:px-14 py-14" id="whyUsSection">
       <div className=" text-[#ccdae7] ">
-        <div className="flex gap-5 text-[13px] md:px-44 px-14">
-          <p>Why Us</p>
-          <p>04</p>
+        <div className="flex gap-5 text-[13px] md:px-32 px-7">
+          <p className="text-[.825em] " >Why Us</p>
+          <p className="text-[#717172]" >03</p>
         </div>
-        <div className="mt-5 flex gap-x-5 md:px-44 ">
-          <div className="h-[2.90rem] w-[3rem] border-[3px] border-[#e49106] rounded-[50%] shadow-2xl  flex justify-center items-center bg-[#a84b05] ">
+        <div className="mt-5 md:flex gap-x-5 md:px-32 px-5 ">
+          <div className="h-[3.20rem] w-[3.4rem] border-[3px] border-[#e49106] rounded-[50%] shadow-2xl md:mt-3  flex justify-center items-center bg-[#a84b05] ">
             <MdGroups className="text-[25px] text-[#f5dc7a] " />
           </div>
-          <div className=" w-[35rem] ">
+          <div className=" md:w-[35rem] ">
             <p
-              className="md:text-[3em] text-3xl text-[#ccdae7] font-bold text-ellipsis"
+              className="md:text-[3em] pt-3 text-3xl text-[#ccdae7] font-bold text-ellipsis"
               style={{ letterSpacing: "-.04em", lineHeight: "1.1" }}
             >
               We are a team of{" "}
@@ -46,9 +50,9 @@ export default function Why() {
           {/* Second div for text */}
           <div className="md:w-[40%] p-10 ml-0 md:ml-10">
             <div className="text-[#ccdae7]">
-              <div className="flex space-x-3">
-                <IoAppsSharp className="mt-2" />
-                <p className="text-[20px] font-bold pt-1" style={{letterSpacing: '-.025em', lineHeight: '1.2'}}>
+              <div className="flex space-x-1">
+                <MdVerticalSplit className="mt-2 text-[23px] " />
+                <p className="text-[20px] font-bold pt-2" style={{letterSpacing: '-.025em', lineHeight: '1.2'}}>
                   Design with real content
                 </p>
               </div>
@@ -58,8 +62,8 @@ export default function Why() {
                 from your content.
               </p>
               <br />
-              <div className="flex space-x-3">
-                <IoAppsSharp className="mt-3" />
+              <div className="flex space-x-1">
+                <IoAppsSharp className="mt-1 text-[20px]  " />
                 <p className="text-[20px] font-bold pt-1" style={{letterSpacing: '-.025em', lineHeight: '1.2'}}>
                   Keep your projects organised
                 </p>
@@ -70,8 +74,8 @@ export default function Why() {
                 grow.
               </p>
               <br />
-              <div className="flex space-x-3">
-                <IoAppsSharp className="mt-3" />
+              <div className="flex space-x-1">
+                <MdInterests className="mt-1 text-[20px] " />
                 <p className="text-[20px] font-bold pt-1" style={{letterSpacing: '-.025em', lineHeight: '1.2'}}>
                   Create reusable symbols
                 </p>

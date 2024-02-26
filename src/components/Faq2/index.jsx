@@ -126,7 +126,7 @@ export default function Faq2() {
     //     overflow: "hidden",
     //   }}
     // >
-    <div className="bg-[#171e25]  md:w-auto md:rounded-tl-[70%] md:pl-[40em] md:ml-[-40em] md:rounded-tr-[35%]  md:pr-0 overflow-hidden relative ">
+    <div className="bg-[#171e25] px-5  md:w-auto md:rounded-tl-[70%] md:pl-[40em] md:ml-[-40em] md:rounded-tr-[35%]  md:pr-0 overflow-hidden relative ">
       {/* </div> */}
 
       <div className="pt-40 md:w-[80%] ">
@@ -220,7 +220,7 @@ export default function Faq2() {
         className="bg-gradient md:p-8 md:mx-auto md:w-[900px] "
         style={{
           background: "#0052cc",
-          height: "320px",
+          height: "auto",
           borderRadius: "17px",
           padding: "40px",
           boxShadow: "0px 4px 80px 0px rgba(0, 0, 0, 0.25)",
@@ -228,11 +228,11 @@ export default function Faq2() {
       >
         
         <p
-          className="text-white md:text-[3em] text-center text-2xl md:p-4 font-bold text-center"
+          className="text-white md:text-[3em] text-center text-2xl md:p-4 font-bold "
           style={{ lineHeight: "1.1", letterSpacing: '-.04em' }}
         >
           Move even faster with{" "}
-          <span className="bg-black text-[30px] py-1 px-4 md:py-1 md:px-4 rounded-full">
+          <span className="bg-black text-[30px] py-1 px-4 md:py-1 md:px-4 rounded-full leading-[60px] ">
             flowyak
           </span>{" "}
           and a new Webflow website.

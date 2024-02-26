@@ -6,11 +6,11 @@ export default function Work() {
   };
 
   return (
-    <div style={backgroundStyle}>
-      <div className="h-screen pt-9 ">
+    <div style={backgroundStyle} className="md:my-15" >
+      <div className=" pt-9 ">
         <center>
-          <div className="text-[#c3c8ce] flex justify-center gap-3 text-[10px] ">
-            <p className="text-[#88898b]" >03</p>
+          <div className="text-[#c3c8ce] flex justify-center gap-3 md:my-5 text-[10px] ">
+            <p className="text-[#88898b]" >02</p>
             <p>. WORK WITH OUR TEAM</p>
           </div>
           <div>
@@ -42,7 +42,7 @@ export default function Work() {
             </p>
           </div>
           <br />
-          <p className="text-[#a7b5c4] text-[1.5em]" style={{letterSpacing: '-.01em', lineHeight: '1.33'}}>With 50 successful launches and 5,000+ templates <br /> sold, our team has a track record you can count on.</p>
+          <p className="text-[#a7b5c4] text-[1.125em] px-5"  style={{letterSpacing: '-.01em', lineHeight: '1.33'}}>With 50 successful launches and 5,000+ templates  sold, our team has a track record you can count on.</p>
       <button className="bg-[#0052cc] mt-6 h-14  px-10 text-[20px] font-bold text-white rounded-[40px] shadow-2xl hover:bg-[#5b46a8] hover:text-white transition-all duration-300 ">
           Work With Us
         </button>
