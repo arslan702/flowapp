@@ -29,5 +29,10 @@ ul li:hover::after {
   transform: scaleX(1);
 }
     
-
+@media (max-width: 768px) { /* Adjust the max-width value according to your responsive breakpoint */
+  ul li:hover::before,
+ul li:hover::after {
+  display: none;
+}
+}
      

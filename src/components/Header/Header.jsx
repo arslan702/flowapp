@@ -50,14 +50,16 @@ const scrollToFaqs = () => {
 
         </div>
         {/* responsive  */}
-        <ul className= {`cursor-pointer text-center  fixed bg-black text-[#ccdae7] top-[67px] md:hidden w-full h-screen  transition-all duration-1000
-              ${toggle ? 'left-[0]' :  'left-[-100%]' }`} >
-          <li className="p-5"><ScrollLink to="webFlowSection" smooth={true} duration={500} onClick={scrollToWhyWebflow}>Why Webflow</ScrollLink></li>
-          <li className="p-5"><ScrollLink to="whyUsSection" smooth={true} duration={500} onClick={scrollToWhyUs}>Why us</ScrollLink></li>
-          <li className="p-5"><ScrollLink to="pricingSection" smooth={true} duration={500} onClick={scrollToPricing}>Pricing</ScrollLink></li>
-          <li className="p-5"><ScrollLink to="faqsSection" smooth={true} duration={500} onClick={scrollToFaqs}>Faqs</ScrollLink></li>
+        {toggle && (
+        <ul className= {`cursor-pointer text-center  fixed bg-[#0d1117] left-[0px] text-[#ccdae7] top-[67px] md:hidden w-full h-auto  transition-all duration-100
+              ${toggle ? 'top-[10]' :  'top-[-100%]' }`} >
+          <li className="p-3"><ScrollLink to="webFlowSection" smooth={true} duration={500} onClick={scrollToWhyWebflow}>Why Webflow</ScrollLink></li>
+          <li className="p-3"><ScrollLink to="whyUsSection" smooth={true} duration={500} onClick={scrollToWhyUs}>Why us</ScrollLink></li>
+          <li className="p-3"><ScrollLink to="pricingSection" smooth={true} duration={500} onClick={scrollToPricing}>Pricing</ScrollLink></li>
+          <li className="p-3"><ScrollLink to="faqsSection" smooth={true} duration={500} onClick={scrollToFaqs}>Faqs</ScrollLink></li>
         <button className="bg-[#0052cc]  text-black h-10 px-5 m-5 rounded-md  hover:bg-[#5b46a8] hover:text-white transition-all duration-300  " >Contact Us</button>
         </ul>
+        )}
       </div>
 
     </div>
